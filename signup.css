@@ -3,8 +3,9 @@
     color: rgb(33, 43, 54);
    box-sizing: border-box;
 }
-
-
+h1 {
+    padding-right: 5px;
+}
 body {
     background-color: #F4F6F8;
 }
@@ -32,9 +33,8 @@ label {
     font-weight: 400;
     padding-left: 3px;
 }
-
 .inputs {
-    margin: 5px 2px 10px;
+    margin: 5px 2px 5px;
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -60,11 +60,13 @@ select {
     border: none;
     outline: none;
 }
+#submit:hover {
+cursor: pointer;
+}
 ::placeholder {
     color:rgb(33, 43, 54) ;
     opacity: 0.6;
 }
-
 .terms-div {
    margin-right: 5px;
    padding-left: 0;
@@ -81,7 +83,6 @@ p {
     font-size: 14px;
     color:rgb(33, 43, 54)
 }
-
 .password {
     position: relative;;
 }
@@ -97,4 +98,66 @@ p {
     right: 15px;
   top: 32%;
   cursor: pointer;
+}
+.password-strenght-meter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.meter1 {
+    border: 1px solid black;
+    width: 72px;
+    height: 4px;
+    margin-right: 4px;
+}
+.meter2 {
+    border: 1px solid black;
+    width: 72px;
+    height: 4px;
+    margin-right: 4px;
+}
+.meter3 {
+    border: 1px solid black;
+    width: 100px;
+    height: 4px;
+    margin-right: 4px;
+}
+.meter4 {
+    border: 1px solid black;
+    width: 72px;
+    height: 4px;
+    margin-right: 4px;
+}
+.meter5 {
+    border: 1px solid black;
+    width: 72px;
+    height: 4px;
+}
+.weak {
+    background-color: #ff4500;
+}
+.okay {
+    background-color: red;
+}
+.strong {
+    background-color: orange;
+}
+.great {
+    background-color: #9acd32;
+}
+.password-info {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+}
+.password-info {
+    display: inline;
+    margin-right: 5px;
+}
+.p-icon {
+    color:#F5A623;
+    font-weight: bold;
+}
+.form-credentials p {
+    margin-top: 0;
+    font-size: 11px;
 }
