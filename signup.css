@@ -105,31 +105,41 @@ p {
     margin-top: 5px;
 }
 .meter1 {
-    border: 1px solid black;
+    border: 1px solid#ddd;
+    background-color: #ddd;
+    border-radius: 3px;
     width: 72px;
     height: 4px;
     margin-right: 4px;
 }
 .meter2 {
-    border: 1px solid black;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
     width: 72px;
     height: 4px;
     margin-right: 4px;
 }
 .meter3 {
-    border: 1px solid black;
+    border: 1px solid#ddd;
+    background-color: #ddd;
+    border-radius: 3px;
     width: 100px;
     height: 4px;
     margin-right: 4px;
 }
 .meter4 {
-    border: 1px solid black;
+    border: 1px solid#ddd;
+    background-color: #ddd;
+    border-radius: 3px;
     width: 72px;
     height: 4px;
     margin-right: 4px;
 }
 .meter5 {
-    border: 1px solid black;
+    border: 1px solid#ddd;
+    background-color: #ddd;
+    border-radius: 3px;
     width: 72px;
     height: 4px;
 }
