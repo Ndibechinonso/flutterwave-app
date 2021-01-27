@@ -9,12 +9,9 @@ h1 {
 body {
     background-color: #F4F6F8;
 }
-.signuppage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 #signupform {
+    margin: 0px auto;
     max-width: 465px;
     padding: 0 30px;
 }
